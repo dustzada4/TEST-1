@@ -29,9 +29,11 @@
                 transition: 700ms;
             }
             
-            #box {
+            #box {          
                 scale: 50%;
                 align-items: center;
+                display: flex;
+                flex-direction: column;
             }
 
             h1 {
@@ -40,9 +42,54 @@
                 text-align: center;
                 margin-top: 32px;
             }
+
             h2 {
                 color: white;
                 font-family: "Bpmf Zihi Kai Std", cursive;
                 text-align: center;
                 margin-top: 16px;
             }
+
+            p {
+                color: white;
+                font-family: "Archivo Black", sans-serif;
+                text-align: center;
+                margin-top: 16px;
+            }
+
+            #box img {
+                border-radius: 10%;
+                border: 5px solid white;
+                align-items: center;
+            }
+
+            .linksnarutoo {
+                text-align: center;
+            }
+
+            .linksnarutoo a {
+                color: white;
+                text-decoration: none;
+                font-size: 24px;
+                font-family: "Roboto", sans-serif;
+                margin: 0 16px;
+            }
+
+            .linksnarutoo a:hover {
+                color: rgb(0, 255, 21);
+                text-decoration: none;
+                transition: 700ms;
+            }
+
+            .linksnarutoo{
+                margin-top: -10%;
+            }
+
+            .linksnarutoo {
+                padding-top: 32px;
+            }
+
+            
+        
+            
+
