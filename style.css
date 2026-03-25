@@ -1,4 +1,4 @@
-    <style> 
+
     @import url('https://fonts.googleapis.com/css2?family=Allkin&family=Archivo+Black&family=Bpmf+Zihi+Kai+Std&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
     *{
         padding: 0;
@@ -40,4 +40,9 @@
                 text-align: center;
                 margin-top: 32px;
             }
-    </style>
+            h2 {
+                color: white;
+                font-family: "Bpmf Zihi Kai Std", cursive;
+                text-align: center;
+                margin-top: 16px;
+            }
