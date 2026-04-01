@@ -13,6 +13,7 @@
             padding: 32px;
             border-bottom: 1px solid rgb(27, 27, 27);
             background-color: rgb(0, 0, 0);
+            border-bottom: 2px solid white;
         }
         header div {
             text-align: center;
@@ -22,74 +23,89 @@
             text-decoration: none;
             font-size: 24px;
             font-family: "Roboto", sans-serif;
-            }
-            header div a:hover {
-                color: rgb(0, 255, 21);
+            margin: 0 16px;
+        }
+        
+        header div a:hover {
+                color: rgb(255, 94, 0);
                 text-decoration: underline;
                 transition: 700ms;
             }
             
-            #box {          
-                scale: 50%;
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
 
             h1 {
                 color: white;
                 font-family: "Allkin", cursive;
                 text-align: center;
-                margin-top: 32px;
+
             }
 
             h2 {
                 color: white;
                 font-family: "Bpmf Zihi Kai Std", cursive;
                 text-align: center;
-                margin-top: 16px;
             }
 
             p {
                 color: white;
                 font-family: "Archivo Black", sans-serif;
                 text-align: center;
-                margin-top: 16px;
+            }
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
             }
 
             #box img {
-                border-radius: 10%;
-                border: 5px solid white;
+            scale: 100%;
+            border-radius: 50%;
+            border: 3px solid white;
+            }
+
+            #box {
+                display: flex;
+                justify-content: center;
                 align-items: center;
+                flex-direction: column;
+                gap: 16px;
+                margin-top: 20px
             }
 
-            .linksnarutoo {
-                text-align: center;
+            #linksnaruto {
+            text-align: center;
+            font-size: 24px;
             }
 
-            .linksnarutoo a {
-                color: white;
-                text-decoration: none;
-                font-size: 24px;
-                font-family: "Roboto", sans-serif;
-                margin: 0 16px;
+            #linksnaruto a {
+            color: white;
+            border-bottom: 3px solid rgb(255, 81, 0);
+            text-decoration: none;
+            font-family: "Roboto", sans-serif;
+            margin: 0 16px;
             }
 
-            .linksnarutoo a:hover {
-                color: rgb(0, 255, 21);
-                text-decoration: none;
-                transition: 700ms;
-            }
+            #linksnaruto a:hover {
+            color: rgb(255, 94, 0);
+            transition: 700ms;
+        }
 
-            .linksnarutoo{
-                margin-top: -10%;
-            }
+        #linksnaruto {
+            margin-top: 20px;
+        }
 
-            .linksnarutoo {
-                padding-top: 32px;
-            }
+
+
+
+
+
+
+
+
 
             
-        
+
             
+
 
